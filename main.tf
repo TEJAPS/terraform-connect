@@ -31,7 +31,7 @@ variable "env" {
 }
 
 variable "bucket-name" {
-  default = "s3bucket1tfstate-tj1234"
+  default = "s3bucktj1234-fromtfgithub"
 }
 
 resource "aws_instance" "myawsserver" {
